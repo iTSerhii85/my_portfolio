@@ -1,0 +1,41 @@
+.contact_menu {
+    position: absolute;
+    top: 90px;
+    right: 0;
+
+    color: #ffffff;
+    z-index: 3;
+    padding: 40px 40px 40px 40px;
+
+    background: rgba(0, 0, 0, 0.61);
+    border-bottom-left-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 2px solid rgb(255, 94, 0);
+    border-top: none;
+}
+
+.hiden {
+    transform: translateY(-100%);
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.list {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
