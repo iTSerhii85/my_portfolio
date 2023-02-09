@@ -1,0 +1,221 @@
+
+
+.work {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 3;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+ 
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.about {
+    padding-top: 50px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.7),
+        rgba(47, 48, 58, 0.7)
+      ), url(../images/pc.png);
+      background-size:cover;
+      background-repeat: no-repeat;
+
+      position:static;
+}
+
+.text_wrapper {
+    width: 500px;
+    margin-right: 200px;
+    color: orange;
+}
+
+.robot {
+    margin-left: 100px
+}
+
+.line {
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+    background: rgba(3, 13, 255, 0.2);
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(3, 13, 255, 0.3);
+}
+
+.my_projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    @media screen and (min-width: 768px) {
+      gap: 25px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      gap: 30px;
+    }
+  }
+
+  .img_project_wrapper {
+    background-color: orange;
+    width: 500px;
+    height: 90%;
+    border-radius: 16px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    // background-image: url(../images/webstudio.png);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+  }
+
+  .desktop {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+
+  .about_project {
+    max-width: 500px;
+    padding: 10px;
+  }
+
+  .tehnologi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    // height: 300px;
+
+    // background-image: url(../images/matrix.jpg);
+
+  }
+
+  .tehno_img {
+    display: block;
+    width: 50px;
+    height: 70px;
+  }
+
+  .dnk {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .mobil_wrapper {
+    height: 90%;
+    width: auto;
+    background-image: url(../images/webstudio-mob.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  .mobil_wrapper-1 {
+    height: 90%;
+    width: auto;
+    background-image: url(../images/ice-mob.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  .mobil_wrapper-2 {
+    height: 90%;
+    width: auto;
+    background-image: url(../images/filmoteka-mob.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  .mobil {
+    width: 100%;
+    height: 100%;
+  }
+
+  .flex-wrapper {
+    width: 100%;
+    display: flex;
+    // gap: -50px;
+  }
+
+  .go_it {
+    width: 200px;
+    height: 50px;
+  }
+
+  .robot_2 {
+    height: 150px;
+    width: auto;
+    z-index: 4;
+    margin-right: -34px;
+    margin-left: -60px;
+    margin-top: 30px;
+  }
+
+  .robot_3 {
+    margin-top: -20px;
+    margin-bottom: -57px;
+    margin-left: 100px;
+    height: 150px;
+    width: 480px;
+    z-index: 4;
+  }
+
+  .robot_4 {
+    z-index: 4;
+    margin-right: -60px;
+    margin-left: -34px;
+    margin-top: 70px;
+    height: 155px;
+    width: auto;
+  }
+
+  .robot_6 {
+    height: 250px;
+    width: 170px;
+    margin-right: -60px;
+    margin-left: -85px;
+    margin-top: 172px;
+    margin-bottom: -92px;
+    z-index: 4;
+  }

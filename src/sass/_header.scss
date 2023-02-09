@@ -1,0 +1,60 @@
+.header{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 90px;
+    background-color:orange;
+    background-image: url(../images/templatemo_header.png);
+    background-size: cover;
+    background-position: center;
+    // margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+.logo {
+    display: block;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.logo_dnk {
+    color: #0f255e;
+}
+
+.webdev {
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight:800;
+}
+
+.contact_btn {
+    margin-right: 50px;
+
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.contact_btn::before {
+    margin-left: auto;
+  }
+  
+  .contact_btn::after, .contact_btn::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .contact_btn:hover::after, .contact_btn:hover::before {
+    width: 100%;
+  }
