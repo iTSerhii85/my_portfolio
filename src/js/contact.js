@@ -1,9 +1,8 @@
-const contactBtn = document.querySelector('.contact_btn');
+const contactBtn = document.querySelector('.js-contact');
 const contactMenu = document.querySelector('.contact_menu');
 
-contactBtn.addEventListener('click', onclick);
+contactBtn.addEventListener('click', openContact);
 
-function onclick (){
-    console.log('click');
-    contactMenu.classList.add('hiden');
+function openContact (){
+    contactMenu.classList.toggle('hiden');
 }
