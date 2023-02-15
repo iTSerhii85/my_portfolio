@@ -200,7 +200,7 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   }
 
-  .mobil_wrapper:hover, .mobil_wrapper-1:hover, .mobil_wrapper-2:hover {
+  .mobil_wrapper:hover, .mobil_wrapper-1:hover, .mobil_wrapper-2:hover, .mobil_wrapper-3:hover {
     transform: scale(1.37);
     border-radius: 50px;
     z-index: 10;
@@ -215,7 +215,7 @@
     background-image: url(../images/ice-mob.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 30px;
 
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -228,7 +228,22 @@
     background-image: url(../images/filmoteka-mob.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 30px;
+
+    z-index: 5;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  .mobil_wrapper-3 {
+    height: 80%;
+    width: auto;
+    background-image: url(../images/barbershop-mob.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
 
     z-index: 5;
 
