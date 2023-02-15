@@ -4,10 +4,11 @@
     width: 100%;
     height: 500px;
     display: flex;
+    gap: 25px;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     z-index: 3;
 
@@ -94,48 +95,86 @@
 
   .img_project_wrapper {
     background-color: #f26a2f;
-    width: 450px;
-    height: 235px;
-    border-radius: 16px;
+    width: 95%;
+    height: 247px;
+    border-radius: 2px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
 
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  
 
-
+    cursor: pointer;
+    z-index: 10;
   }
 
-  // .img_project_wrapper:active{
-  //   transform: scale(1.5);
+  .img_project_wrapper::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .img_project_wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+  }
+  
+  .img_project_wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+  }
+
+  .relativ {
+    position: relative;
+    width: 470px;
+    margin: 0;
+    height: 100%;
+    padding-top: 60px;
+  }
+
+  .monitor {
+    position: absolute;
+  }
+
+  // .img_project_wrapper:hover{
+  //   display: block;
+  //   transform: scale(1.3);
+  //   // position: absolute;
+  //   z-index: 100;
+  //   // top: 10px;
+  //   // right: 120px;
+  //   .robot_2 {
+  //     display: none;
+  //   }
   // }
 
   .desktop {
     display: block;
     width: 100%;
-    height: 100%;
-    border-radius: 16px;
+    border-radius: 2px;
   }
 
   .about_project {
-    max-width: 500px;
+    width: 430px;
     padding: 10px;
   }
 
   .tehnologi {
     display: flex;
     align-items: center;
+
     justify-content: space-around;
     width: 100%;
-    // height: 300px;
-
-    // background-image: url(../images/matrix.jpg);
-
   }
 
   .tehno_img {
     display: block;
     width: 50px;
     height: 70px;
+    margin: 0;
   }
 
   .dnk {
@@ -162,10 +201,11 @@
   }
 
   .mobil_wrapper:hover, .mobil_wrapper-1:hover, .mobil_wrapper-2:hover {
-    height: 110%;
+    transform: scale(1.37);
     border-radius: 50px;
-    position: absolute;
-    left: 40%;    
+    z-index: 10;
+    // position: absolute;
+    // left: 40%;    
   }
 
   .mobil_wrapper-1 {
@@ -205,7 +245,6 @@
   .flex-wrapper {
     width: 100%;
     display: flex;
-    // gap: -50px;
   }
 
   .go_it {
